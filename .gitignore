@@ -1,0 +1,21 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Project caches and facial data (Ignoring private datasets but preserving folder structure)
+embeddings/
+face recog/dataset/*
+!face recog/dataset/.gitkeep
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
